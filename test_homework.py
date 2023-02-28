@@ -39,7 +39,7 @@ def test_circle():
 
     r = 23
     # TODO сосчитайте площадь
-    area = math.pi * pow(r, 2)
+    area = math.pi * r**2
     assert area == 1661.9025137490005
 
     # TODO сосчитайте длину окружности
